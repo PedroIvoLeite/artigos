@@ -1,0 +1,164 @@
+\chapter{Fundamentação Teórica}
+\label{sec:fundamentacao}
+
+Esta seção apresenta os conceitos fundamentais que sustentam este trabalho, incluindo a estrutura da certificação PMP, os princípios dos Modelos de Linguagem de Grande Porte (LLMs) e as estratégias de interação por meio de \textit{prompt engineering}. Ao final, são discutidos os desafios inerentes ao uso de LLMs em tarefas que envolvem julgamento contextual e tomada de decisão.
+
+
+
+
+\section{Certificação PMP e Avaliação Baseada em Competências}
+\label{subsec:pmp}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Definição da certificação PMP e seu papel na área de gerenciamento de projetos.
+    \item Estrutura conceitual do PMP:
+    \begin{itemize}
+        \item Avaliação baseada em competências (não apenas conhecimento)
+        \item Ênfase em aplicação prática
+    \end{itemize}
+    \item Organização do exame segundo o \textit{Exam Content Outline (ECO)}:
+    \begin{itemize}
+        \item Domínios: People, Process, Business Environment
+    \end{itemize}
+    \item Natureza das questões:
+    \begin{itemize}
+        \item Cenários situacionais
+        \item Problemas abertos com múltiplas alternativas plausíveis
+        \item Necessidade de julgamento e priorização
+    \end{itemize}
+    \item Integração de abordagens:
+    \begin{itemize}
+        \item Preditiva
+        \item Ágil
+        \item Híbrida
+    \end{itemize}
+    \item Implicação central:
+    \begin{itemize}
+        \item O exame exige raciocínio contextual e tomada de decisão
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{Modelos de Linguagem de Grande Porte (LLMs)}
+\label{subsec:llms}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Definição de LLMs e base em arquiteturas do tipo Transformer.
+    \item Princípio de funcionamento:
+    \begin{itemize}
+        \item Modelagem probabilística da linguagem
+        \item Predição de tokens com base em contexto
+    \end{itemize}
+    \item Capacidades principais:
+    \begin{itemize}
+        \item Compreensão de texto
+        \item Geração de respostas
+        \item Raciocínio aproximado
+    \end{itemize}
+    \item Características relevantes:
+    \begin{itemize}
+        \item Sensibilidade ao contexto fornecido
+        \item Dependência da formulação do prompt
+    \end{itemize}
+    \item Limitações fundamentais:
+    \begin{itemize}
+        \item Alucinações
+        \item Falta de garantia de veracidade
+        \item Ausência de modelo explícito de mundo
+    \end{itemize}
+\end{itemize}
+
+
+
+
+
+\section{Prompt Engineering}
+\label{subsec:prompt}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Definição de \textit{prompt engineering} como mecanismo de controle do comportamento do modelo.
+    \item Papel do prompt como interface entre usuário e LLM.
+    \item Principais estratégias:
+    \begin{itemize}
+        \item Zero-shot
+        \item Few-shot
+        \item Chain-of-Thought (CoT)
+        \item Prompt com grounding (uso de contexto externo)
+    \end{itemize}
+    \item Impacto do prompt:
+    \begin{itemize}
+        \item Influência na qualidade da resposta
+        \item Influência na estrutura do raciocínio
+    \end{itemize}
+    \item Limitação:
+    \begin{itemize}
+        \item Não elimina completamente erros ou inconsistências
+    \end{itemize}
+\end{itemize}
+
+
+
+
+
+\section{Raciocínio e Tomada de Decisão em LLMs}
+\label{subsec:decision}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Diferença entre:
+    \begin{itemize}
+        \item Recuperação de conhecimento (factual)
+        \item Raciocínio (inferência)
+        \item Tomada de decisão (escolha entre alternativas)
+    \end{itemize}
+    \item Natureza da tomada de decisão em gerenciamento de projetos:
+    \begin{itemize}
+        \item Dependência de contexto
+        \item Trade-offs entre alternativas
+        \item Ausência de resposta única trivial
+    \end{itemize}
+    \item Limitações dos LLMs nesse contexto:
+    \begin{itemize}
+        \item Tendência a respostas genéricas
+        \item Dificuldade em priorização de ações
+        \item Sensibilidade a pequenas variações no enunciado
+    \end{itemize}
+    \item Implicação:
+    \begin{itemize}
+        \item Desafio em tarefas que exigem julgamento situacional
+    \end{itemize}
+\end{itemize}
+
+
+
+
+
+\section{Considerações Finais do Capítulo}
+\label{subsec:fund_final}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Síntese dos conceitos:
+    \begin{itemize}
+        \item PMP como avaliação baseada em decisão e contexto
+        \item LLMs como modelos probabilísticos com capacidades e limitações
+        \item Prompt engineering como fator crítico de desempenho
+    \end{itemize}
+    \item Insight central:
+    \begin{itemize}
+        \item Há um desalinhamento potencial entre a natureza do PMP e as limitações dos LLMs
+    \end{itemize}
+    \item Justificativa implícita para o estudo:
+    \begin{itemize}
+        \item Necessidade de avaliar empiricamente esse comportamento
+    \end{itemize}
+    \item Transição:
+    \begin{itemize}
+        \item Indicar que o capítulo seguinte apresenta os trabalhos relacionados
+    \end{itemize}
+\end{itemize}

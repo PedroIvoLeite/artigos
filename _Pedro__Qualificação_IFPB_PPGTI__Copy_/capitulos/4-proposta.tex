@@ -1,0 +1,231 @@
+\chapter{Descrição da Proposta}
+\label{sec:metodologia}
+
+Este capítulo apresenta a proposta desta pesquisa, detalhando o problema investigado, a abordagem adotada, o desenho experimental e os elementos que compõem a solução proposta.
+
+\section{Visão Geral da Proposta}
+\label{subsec:visao_proposta}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Reapresentar brevemente o problema:
+    \begin{itemize}
+        \item uso crescente de LLMs no estudo para PMP
+        \item incerteza sobre confiabilidade
+    \end{itemize}
+    \item Ideia central da proposta:
+    \begin{itemize}
+        \item avaliar sistematicamente o desempenho de LLMs
+    \end{itemize}
+    \item Estratégia geral:
+    \begin{itemize}
+        \item uso de questões PMP
+        \item aplicação de diferentes prompts
+        \item análise quantitativa e qualitativa
+    \end{itemize}
+    \item Resultado esperado:
+    \begin{itemize}
+        \item compreensão dos limites e capacidades dos LLMs
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{Questões de Pesquisa}
+\label{subsec:qp_proposta}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Apresentar claramente as QPs:
+    \begin{itemize}
+        \item QP1: Acurácia dos LLMs
+        \item QP2: Variação por domínio/tipo de questão
+        \item QP3: Padrões de erro
+        \item QP4 (opcional): Impacto do prompting
+    \end{itemize}
+    \item Explicar o papel de cada QP no estudo
+\end{itemize}
+
+
+
+
+\section{Modelo Conceitual da Proposta}
+\label{subsec:modelo_conceitual}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Definir os principais elementos do estudo:
+    \begin{itemize}
+        \item Entrada:
+        \begin{itemize}
+            \item Questões PMP
+            \item Estratégias de prompt
+        \end{itemize}
+        \item Processo:
+        \begin{itemize}
+            \item Execução nos LLMs
+        \end{itemize}
+        \item Saída:
+        \begin{itemize}
+            \item Respostas dos modelos
+            \item Justificativas
+        \end{itemize}
+    \end{itemize}
+    \item Variáveis:
+    \begin{itemize}
+        \item Independentes:
+        \begin{itemize}
+            \item Prompt
+            \item Tipo de questão
+            \item Domínio PMP
+        \end{itemize}
+        \item Dependentes:
+        \begin{itemize}
+            \item Acurácia
+            \item Consistência
+            \item Tipo de erro
+        \end{itemize}
+    \end{itemize}
+    \item Pode incluir um diagrama (fluxo ou arquitetura)
+\end{itemize}
+
+
+
+\section{Desenho Experimental}
+\label{subsec:desenho_exp}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Estratégia experimental:
+    \begin{itemize}
+        \item execução controlada de questões
+        \item isolamento entre execuções
+    \end{itemize}
+    \item Configuração:
+    \begin{itemize}
+        \item cada questão executada separadamente
+        \item ausência de contexto acumulado
+    \end{itemize}
+    \item Repetições:
+    \begin{itemize}
+        \item execução múltipla para avaliar consistência
+    \end{itemize}
+    \item Comparações:
+    \begin{itemize}
+        \item entre prompts
+        \item entre tipos de questão
+        \item entre domínios PMP
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{Estratégias de Prompting}
+\label{subsec:prompting_proposta}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Definir os tipos de prompts utilizados:
+    \begin{itemize}
+        \item Zero-shot
+        \item Prompt com explicação (CoT simplificado)
+        \item Prompt com grounding (opcional)
+    \end{itemize}
+    \item Justificar escolha:
+    \begin{itemize}
+        \item avaliar impacto no desempenho
+    \end{itemize}
+    \item Definir estrutura das respostas esperadas:
+    \begin{itemize}
+        \item resposta final
+        \item justificativa (quando aplicável)
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{Dataset e Caracterização das Questões}
+\label{subsec:dataset_proposta}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Origem das questões:
+    \begin{itemize}
+        \item simulados, bancos de questões, ou construção própria
+    \end{itemize}
+    \item Quantidade de questões
+    \item Classificação das questões:
+    \begin{itemize}
+        \item por domínio (People, Process, Business)
+        \item por tipo (objetiva, múltipla, situacional)
+    \end{itemize}
+    \item Garantia de qualidade:
+    \begin{itemize}
+        \item validação do gabarito
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{Métricas de Avaliação}
+\label{subsec:metricas}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Métrica principal:
+    \begin{itemize}
+        \item acurácia
+    \end{itemize}
+    \item Métricas complementares:
+    \begin{itemize}
+        \item desempenho por domínio
+        \item desempenho por tipo de questão
+        \item consistência entre execuções
+    \end{itemize}
+    \item Avaliação qualitativa:
+    \begin{itemize}
+        \item análise de justificativas
+        \item categorização de erros
+    \end{itemize}
+\end{itemize}
+
+
+\section{Análise dos Resultados}
+\label{subsec:analise}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Análise quantitativa:
+    \begin{itemize}
+        \item comparação entre cenários
+        \item estatísticas descritivas
+    \end{itemize}
+    \item Análise qualitativa:
+    \begin{itemize}
+        \item identificação de padrões de erro
+        \item interpretação dos comportamentos dos modelos
+    \end{itemize}
+    \item Relacionamento com as QPs
+\end{itemize}
+
+
+
+\section{Considerações Finais do Capítulo}
+\label{subsec:proposta_final}
+
+\textbf{Ideias a abordar:}
+\begin{itemize}
+    \item Síntese da abordagem proposta
+    \item Reforço do diferencial:
+    \begin{itemize}
+        \item análise integrada (prompt + domínio + tipo)
+    \end{itemize}
+    \item Viabilidade do estudo
+    \item Transição para próximos capítulos:
+    \begin{itemize}
+        \item implementação e resultados
+    \end{itemize}
+\end{itemize}
